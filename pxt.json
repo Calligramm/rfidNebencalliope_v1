@@ -1,0 +1,22 @@
+{
+    "name": "Rfid2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-rfid-rc522": "github:callitgs3/pxt-rfid-rc522#6fd2292a4639afbd54cbe127ee6e32f2a7a75257",
+        "OLED12864_I2C": "github:callitgs3/oled12864_i2c#bffab279a7302996f6fdcb9b3e477101234c0603"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
